@@ -14,4 +14,4 @@ git commit
 git rm file-3.md
 git rm -f file-3.md
 git rm --cached file-3.md
-
+git mv file-4.md file-4-new.md
