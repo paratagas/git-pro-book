@@ -1,3 +1,4 @@
+# Chapters 1, 2
 git config
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
@@ -66,4 +67,8 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
-git log --oneline --decorate –graph --all
+# Chapter 3
+git branch testing
+git log --oneline --decorate
+git checkout testing
+git log --oneline --decorate --graph --all
