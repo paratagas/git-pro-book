@@ -10,6 +10,7 @@ git status
 git status -s
 
 git add
+git add .
 git add README.md
 
 git diff
@@ -36,4 +37,6 @@ git log --since=20.minutes
 git log --since=1.hours
 git log -Sfunction_name
 
-git commit –amend
+git commit --amend
+
+git reset HEAD file-1.md
