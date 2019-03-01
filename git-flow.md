@@ -72,3 +72,15 @@ git branch testing
 git log --oneline --decorate
 git checkout testing
 git log --oneline --decorate --graph --all
+
+git checkout -b iss53
+git checkout -b hotfix
+
+git checkout master
+git merge hotfix
+git branch -d hotfix
+git branch -d iss53
+git branch -vv
+git branch --merged
+
+git checkout -b serverfix origin/serverfix
