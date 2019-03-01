@@ -39,4 +39,30 @@ git log -Sfunction_name
 
 git commit --amend
 
+# remove from stage:
 git reset HEAD file-1.md
+
+# remove changes:
+git checkout -- file-1.md
+
+git remote
+git remote -v
+git remote show origin
+git remote rename pb paul
+git remote rm paul
+
+git fetch
+
+git push origin master
+
+git tag
+git tag -l ‚v1.8.5*'
+git tag -a v1.4 -m 'my version 1.4'
+git show v1.4
+git tag v1.4-lw
+
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+
