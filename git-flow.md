@@ -18,4 +18,12 @@ git mv file-4.md file-4-new.md
 git mv cli-commands.md git-flow.md
 git log
 git log -p -2
+git log --stat
+git log --pretty=oneline
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%h - %an, %ar : %s" --graph
+git log --since=2.weeks
+git log --since=20.minutes
+git log --since=1.hours
+git log -Sfunction_name
 
