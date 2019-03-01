@@ -11,4 +11,7 @@ git diff
 git diff --staged
 git diff --cached
 git commit
+git rm file-3.md
+git rm -f file-3.md
+git rm --cached file-3.md
 
