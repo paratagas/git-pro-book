@@ -10,4 +10,5 @@ git add README.md
 git diff
 git diff --staged
 git diff --cached
+git commit
 
