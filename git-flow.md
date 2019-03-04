@@ -99,3 +99,5 @@ git clean
 
 git grep
 git log -Sgit --oneline
+git reset --hard HEAD~
+git blame -L 20,102 git-flow.md
