@@ -84,3 +84,14 @@ git branch -vv
 git branch --merged
 
 git checkout -b serverfix origin/serverfix
+
+git show 4bc3512a1bbdb9e644906be7c83f77afafbea3f3 - commit #
+git show testing - branch name
+git reflog - branches and tags history
+git log master..testing
+git stash
+git stash list
+git stash apply
+git stash apply stash@{2}
+
+
