@@ -90,8 +90,12 @@ git show testing - branch name
 git reflog - branches and tags history
 git log master..testing
 git stash
+git stash -u
 git stash list
 git stash apply
-git stash apply stash@{2}
+git stash apply stash@{0}
+git stash branch testchanges
+git clean
 
-
+git grep
+git log -Sgit --oneline
